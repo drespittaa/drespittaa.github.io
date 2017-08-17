@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body{
     background-color: black;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    color: white;
+h1, h2, h3, h4, h5, h6, p{ color: white; }
+h1, h2, h3, h4, h5, h6{ font-family: 'Arvo', serif; }
+p{ font-family: 'Lato', sans-serif; }
+
+img{
+    max-width: 100%;
+}
+
+#nav-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.jumbotron{
+    h1, h2, h3, h4, h5, h6, p{
+        color: black;
+    }   
 }
