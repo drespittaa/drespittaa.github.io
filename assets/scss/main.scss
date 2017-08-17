@@ -73,3 +73,15 @@ img{ max-width: 100%; }
         opacity: 0.8;
     }
 }
+
+#social-stage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .social{
+        filter: invert(100%);
+    }
+}
+
+#p-center{ text-align: center; padding-top: 5%; }
