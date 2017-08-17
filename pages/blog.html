@@ -1,0 +1,23 @@
+---
+layout: blog
+---
+
+<div class="row">
+    <div class="col-lg-8">
+        <h1>What's Happening in the Spittaaverse</h1>
+        <p>
+            What's good y'all? If you want to find out what I think about rapping, producing, or just stuff in general, this is the place to go!
+        </p>
+        <p>
+            Also, don't forget to follow the fam, F. Nebulous.
+        </p>
+    </div>
+    <div class="col-lg-4">
+        <section class="blog-posts">
+            <h3>Latest Posts</h3>
+                {% for post in site.posts %}
+                    <h5>{{ post.title}}</h5>
+                {% endfor %}
+        </section>
+    </div>
+</div>
