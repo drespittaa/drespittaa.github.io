@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 ---
 
 <div class="row">
@@ -13,11 +13,15 @@ layout: blog
         </p>
     </div>
     <div class="col-lg-4">
-        <section class="blog-posts">
-            <h3>Latest Posts</h3>
-                {% for post in site.posts %}
-                    <h5>{{ post.title}}</h5>
-                {% endfor %}
+        <section class="blog-posts rounded-top">
+            <h3 class="title">Latest Posts</h3>
+            {% for post in site.posts %}
+                <a href="../{{ post.url }}">
+                    <h4>{{ post.title }}</h4>
+                </a>
+                <h6 class="font-italic">By {{ post.author }} on {{ post.date | date_to_string }}</h6>
+                <br>
+            {% endfor %}
         </section>
     </div>
 </div>

@@ -21,7 +21,9 @@ img{
 .jumbotron{
     h1, h2, h3, h4, h5, h6, p{
         color: black;
-    }   
+    }
+
+    opacity: 0.6;
 }
 
 .card-title, .card-text{
@@ -30,4 +32,18 @@ img{
 
 .featured{
     margin: 5% 0;
+}
+
+.blog-posts{
+    h1, h2, h3, h4, h5, h6, p{
+        color: black;
+    }
+    
+    padding: 5% 2%;
+
+    background-color: white;
+
+    .title{
+        padding-bottom: 50px;
+    }
 }
